@@ -1,0 +1,35 @@
+/* element */
+h1 {
+    font-size: 42px;
+    color:red;
+}
+
+/* # id */
+
+/* , when we want to use the certain css for more than one selector and we list them one by one  */
+#secondaryTitle,
+.item .nestedList li {
+    background-color: black;
+    color: snow;
+}
+
+/* . class */
+.text{
+    font-size: 21px;
+}
+
+/* class="text mainParagraph" */
+.text.mainParagraph {
+    color:#e34c26
+}
+
+.item {
+    color: green
+}
+/* nested class 
+when there is space between classes like here, 
+the css looks for an element with class "item" which holds
+another element with class "nestedList" which holds list item - li */
+.item .nestedList li{
+    color: red
+}
