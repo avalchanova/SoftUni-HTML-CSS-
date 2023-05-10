@@ -1,6 +1,7 @@
 main {
     margin: 0 auto;
     padding: 8px 24px; /* the first value is for the top padding, the second for the side */
-  
+    width: 500px;
+   
 
 }
