@@ -3,6 +3,7 @@ main {
     padding: 8px 24px; /* the first value is for the top padding, the second for the side */
     width: 500px;
     font-size: 30px;
-
+    border: 1px solid;
+  
 
 }
