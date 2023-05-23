@@ -16,7 +16,5 @@ table thead th{
 }
 
 table tbody tr:nth-child(odd) td{
-    background: lightgreen
-    ;
-
+    background: lightgreen;
 }
