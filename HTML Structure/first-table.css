@@ -10,3 +10,13 @@ td,th{
     padding: 0.5em 1em
 }
 
+table thead th{
+    background: green;
+    color: white
+}
+
+table tbody tr:nth-child(odd) td{
+    background: lightgreen
+    ;
+
+}
