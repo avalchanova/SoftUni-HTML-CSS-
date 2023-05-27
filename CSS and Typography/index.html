@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* header h2 {
+            в хедъра търсим h2, отново ще работи, ако използваме клас:
+            header .fancy, тогава ще търси в хедъра елементи с клас "фенси"
+            border-top:10px solid lightblue ;
+        } */
+
+        #header {
+            border-top:10px solid lightblue
+        }
+        .fancy {
+            /* border-top:10px solid yellow */
+        }
+        /* css specificity: един селектор е по-важен от друг, когато е по-специфичен
+        id има най-голяма тежест, така че той измества по значимост класа
+        */
+
+        html {
+            /* font-size: 24px;
+            line-height: 2; 
+            след като вече сме задали мерна единица px, надолу всяка следваща
+            м.ед също ще бъде като първата зададена
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: normal 
+            всички тези редове на един ред биха изглеждали така: */
+
+            font: normal 24px/1.5 Georgia, 'Times New Roman', Times, serif;
+        }
+
+    </style>
+</head>
+<body>
+    <header id="header" class="fancy">
+        <h1>Site Title</h1>
+    </header>
+    <main>
+        <article>
+            <header>
+                <h2>Article Title 1</h2>
+            </header>
+            <section>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam excepturi, aut laborum molestiae corrupti laudantium voluptates. Atque vitae praesentium, tempora beatae aperiam est impedit perferendis corrupti repellat quis iusto libero pariatur soluta. Provident quisquam sed harum dolorum culpa doloremque nam. Sint rerum placeat numquam doloremque veniam officiis commodi accusantium doloribus, saepe, accusamus assumenda, optio facere quibusdam earum quaerat ullam? Facere, nobis! Soluta quasi aut laudantium vitae fugit, unde iste molestiae amet saepe quae? Nemo fuga accusantium impedit officia. Asperiores dolorum optio distinctio ad! Minus minima suscipit numquam aliquid consequuntur! Non aliquid itaque, nam neque dicta culpa corporis deleniti aspernatur beatae.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam excepturi, aut laborum molestiae corrupti laudantium voluptates. Atque vitae praesentium, tempora beatae aperiam est impedit perferendis corrupti repellat quis iusto libero pariatur soluta. Provident quisquam sed harum dolorum culpa doloremque nam. Sint rerum placeat numquam doloremque veniam officiis commodi accusantium doloribus, saepe, accusamus assumenda, optio facere quibusdam earum quaerat ullam? Facere, nobis! Soluta quasi aut laudantium vitae fugit, unde iste molestiae amet saepe quae? Nemo fuga accusantium impedit officia. Asperiores dolorum optio distinctio ad! Minus minima suscipit numquam aliquid consequuntur! Non aliquid itaque, nam neque dicta culpa corporis deleniti aspernatur beatae.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam excepturi, aut laborum molestiae corrupti laudantium voluptates. Atque vitae praesentium, tempora beatae aperiam est impedit perferendis corrupti repellat quis iusto libero pariatur soluta. Provident quisquam sed harum dolorum culpa doloremque nam. Sint rerum placeat numquam doloremque veniam officiis commodi accusantium doloribus, saepe, accusamus assumenda, optio facere quibusdam earum quaerat ullam? Facere, nobis! Soluta quasi aut laudantium vitae fugit, unde iste molestiae amet saepe quae? Nemo fuga accusantium impedit officia. Asperiores dolorum optio distinctio ad! Minus minima suscipit numquam aliquid consequuntur! Non aliquid itaque, nam neque dicta culpa corporis deleniti aspernatur beatae.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam excepturi, aut laborum molestiae corrupti laudantium voluptates. Atque vitae praesentium, tempora beatae aperiam est impedit perferendis corrupti repellat quis iusto libero pariatur soluta. Provident quisquam sed harum dolorum culpa doloremque nam. Sint rerum placeat numquam doloremque veniam officiis commodi accusantium doloribus, saepe, accusamus assumenda, optio facere quibusdam earum quaerat ullam? Facere, nobis! Soluta quasi aut laudantium vitae fugit, unde iste molestiae amet saepe quae? Nemo fuga accusantium impedit officia. Asperiores dolorum optio distinctio ad! Minus minima suscipit numquam aliquid consequuntur! Non aliquid itaque, nam neque dicta culpa corporis deleniti aspernatur beatae.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam excepturi, aut laborum molestiae corrupti laudantium voluptates. Atque vitae praesentium, tempora beatae aperiam est impedit perferendis corrupti repellat quis iusto libero pariatur soluta. Provident quisquam sed harum dolorum culpa doloremque nam. Sint rerum placeat numquam doloremque veniam officiis commodi accusantium doloribus, saepe, accusamus assumenda, optio facere quibusdam earum quaerat ullam? Facere, nobis! Soluta quasi aut laudantium vitae fugit, unde iste molestiae amet saepe quae? Nemo fuga accusantium impedit officia. Asperiores dolorum optio distinctio ad! Minus minima suscipit numquam aliquid consequuntur! Non aliquid itaque, nam neque dicta culpa corporis deleniti aspernatur beatae.</p>
+            </section>
+            <footer>
+                Published on 12/05/2023 at 16:51
+            </footer>
+</article>
+<article>
+    <header>
+        <h2>Article Title 2</h2>
+    </header>
+    <section>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam excepturi, aut laborum molestiae corrupti laudantium voluptates. Atque vitae praesentium, tempora beatae aperiam est impedit perferendis corrupti repellat quis iusto libero pariatur soluta. Provident quisquam sed harum dolorum culpa doloremque nam. Sint rerum placeat numquam doloremque veniam officiis commodi accusantium doloribus, saepe, accusamus assumenda, optio facere quibusdam earum quaerat ullam? Facere, nobis! Soluta quasi aut laudantium vitae fugit, unde iste molestiae amet saepe quae? Nemo fuga accusantium impedit officia. Asperiores dolorum optio distinctio ad! Minus minima suscipit numquam aliquid consequuntur! Non aliquid itaque, nam neque dicta culpa corporis deleniti aspernatur beatae.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam excepturi, aut laborum molestiae corrupti laudantium voluptates. Atque vitae praesentium, tempora beatae aperiam est impedit perferendis corrupti repellat quis iusto libero pariatur soluta. Provident quisquam sed harum dolorum culpa doloremque nam. Sint rerum placeat numquam doloremque veniam officiis commodi accusantium doloribus, saepe, accusamus assumenda, optio facere quibusdam earum quaerat ullam? Facere, nobis! Soluta quasi aut laudantium vitae fugit, unde iste molestiae amet saepe quae? Nemo fuga accusantium impedit officia. Asperiores dolorum optio distinctio ad! Minus minima suscipit numquam aliquid consequuntur! Non aliquid itaque, nam neque dicta culpa corporis deleniti aspernatur beatae.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam excepturi, aut laborum molestiae corrupti laudantium voluptates. Atque vitae praesentium, tempora beatae aperiam est impedit perferendis corrupti repellat quis iusto libero pariatur soluta. Provident quisquam sed harum dolorum culpa doloremque nam. Sint rerum placeat numquam doloremque veniam officiis commodi accusantium doloribus, saepe, accusamus assumenda, optio facere quibusdam earum quaerat ullam? Facere, nobis! Soluta quasi aut laudantium vitae fugit, unde iste molestiae amet saepe quae? Nemo fuga accusantium impedit officia. Asperiores dolorum optio distinctio ad! Minus minima suscipit numquam aliquid consequuntur! Non aliquid itaque, nam neque dicta culpa corporis deleniti aspernatur beatae.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam excepturi, aut laborum molestiae corrupti laudantium voluptates. Atque vitae praesentium, tempora beatae aperiam est impedit perferendis corrupti repellat quis iusto libero pariatur soluta. Provident quisquam sed harum dolorum culpa doloremque nam. Sint rerum placeat numquam doloremque veniam officiis commodi accusantium doloribus, saepe, accusamus assumenda, optio facere quibusdam earum quaerat ullam? Facere, nobis! Soluta quasi aut laudantium vitae fugit, unde iste molestiae amet saepe quae? Nemo fuga accusantium impedit officia. Asperiores dolorum optio distinctio ad! Minus minima suscipit numquam aliquid consequuntur! Non aliquid itaque, nam neque dicta culpa corporis deleniti aspernatur beatae.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam excepturi, aut laborum molestiae corrupti laudantium voluptates. Atque vitae praesentium, tempora beatae aperiam est impedit perferendis corrupti repellat quis iusto libero pariatur soluta. Provident quisquam sed harum dolorum culpa doloremque nam. Sint rerum placeat numquam doloremque veniam officiis commodi accusantium doloribus, saepe, accusamus assumenda, optio facere quibusdam earum quaerat ullam? Facere, nobis! Soluta quasi aut laudantium vitae fugit, unde iste molestiae amet saepe quae? Nemo fuga accusantium impedit officia. Asperiores dolorum optio distinctio ad! Minus minima suscipit numquam aliquid consequuntur! Non aliquid itaque, nam neque dicta culpa corporis deleniti aspernatur beatae.</p>
+    </section>
+    <footer>
+        Published on 13/05/2023 at 10:11
+    </footer>
+</article>
+<article>
+    <header>
+        <h2>Article Title 3</h2>
+    </header>
+    <section>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam excepturi, aut laborum molestiae corrupti laudantium voluptates. Atque vitae praesentium, tempora beatae aperiam est impedit perferendis corrupti repellat quis iusto libero pariatur soluta. Provident quisquam sed harum dolorum culpa doloremque nam. Sint rerum placeat numquam doloremque veniam officiis commodi accusantium doloribus, saepe, accusamus assumenda, optio facere quibusdam earum quaerat ullam? Facere, nobis! Soluta quasi aut laudantium vitae fugit, unde iste molestiae amet saepe quae? Nemo fuga accusantium impedit officia. Asperiores dolorum optio distinctio ad! Minus minima suscipit numquam aliquid consequuntur! Non aliquid itaque, nam neque dicta culpa corporis deleniti aspernatur beatae.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam excepturi, aut laborum molestiae corrupti laudantium voluptates. Atque vitae praesentium, tempora beatae aperiam est impedit perferendis corrupti repellat quis iusto libero pariatur soluta. Provident quisquam sed harum dolorum culpa doloremque nam. Sint rerum placeat numquam doloremque veniam officiis commodi accusantium doloribus, saepe, accusamus assumenda, optio facere quibusdam earum quaerat ullam? Facere, nobis! Soluta quasi aut laudantium vitae fugit, unde iste molestiae amet saepe quae? Nemo fuga accusantium impedit officia. Asperiores dolorum optio distinctio ad! Minus minima suscipit numquam aliquid consequuntur! Non aliquid itaque, nam neque dicta culpa corporis deleniti aspernatur beatae.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam excepturi, aut laborum molestiae corrupti laudantium voluptates. Atque vitae praesentium, tempora beatae aperiam est impedit perferendis corrupti repellat quis iusto libero pariatur soluta. Provident quisquam sed harum dolorum culpa doloremque nam. Sint rerum placeat numquam doloremque veniam officiis commodi accusantium doloribus, saepe, accusamus assumenda, optio facere quibusdam earum quaerat ullam? Facere, nobis! Soluta quasi aut laudantium vitae fugit, unde iste molestiae amet saepe quae? Nemo fuga accusantium impedit officia. Asperiores dolorum optio distinctio ad! Minus minima suscipit numquam aliquid consequuntur! Non aliquid itaque, nam neque dicta culpa corporis deleniti aspernatur beatae.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam excepturi, aut laborum molestiae corrupti laudantium voluptates. Atque vitae praesentium, tempora beatae aperiam est impedit perferendis corrupti repellat quis iusto libero pariatur soluta. Provident quisquam sed harum dolorum culpa doloremque nam. Sint rerum placeat numquam doloremque veniam officiis commodi accusantium doloribus, saepe, accusamus assumenda, optio facere quibusdam earum quaerat ullam? Facere, nobis! Soluta quasi aut laudantium vitae fugit, unde iste molestiae amet saepe quae? Nemo fuga accusantium impedit officia. Asperiores dolorum optio distinctio ad! Minus minima suscipit numquam aliquid consequuntur! Non aliquid itaque, nam neque dicta culpa corporis deleniti aspernatur beatae.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam excepturi, aut laborum molestiae corrupti laudantium voluptates. Atque vitae praesentium, tempora beatae aperiam est impedit perferendis corrupti repellat quis iusto libero pariatur soluta. Provident quisquam sed harum dolorum culpa doloremque nam. Sint rerum placeat numquam doloremque veniam officiis commodi accusantium doloribus, saepe, accusamus assumenda, optio facere quibusdam earum quaerat ullam? Facere, nobis! Soluta quasi aut laudantium vitae fugit, unde iste molestiae amet saepe quae? Nemo fuga accusantium impedit officia. Asperiores dolorum optio distinctio ad! Minus minima suscipit numquam aliquid consequuntur! Non aliquid itaque, nam neque dicta culpa corporis deleniti aspernatur beatae.</p>
+    </section>
+    <footer>
+        Published on 15/05/2023 at 12:31
+    </footer>
+</article><article>
+    <header>
+        <h2>Article Title 4</h2>
+    </header>
+    <section>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam excepturi, aut laborum molestiae corrupti laudantium voluptates. Atque vitae praesentium, tempora beatae aperiam est impedit perferendis corrupti repellat quis iusto libero pariatur soluta. Provident quisquam sed harum dolorum culpa doloremque nam. Sint rerum placeat numquam doloremque veniam officiis commodi accusantium doloribus, saepe, accusamus assumenda, optio facere quibusdam earum quaerat ullam? Facere, nobis! Soluta quasi aut laudantium vitae fugit, unde iste molestiae amet saepe quae? Nemo fuga accusantium impedit officia. Asperiores dolorum optio distinctio ad! Minus minima suscipit numquam aliquid consequuntur! Non aliquid itaque, nam neque dicta culpa corporis deleniti aspernatur beatae.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam excepturi, aut laborum molestiae corrupti laudantium voluptates. Atque vitae praesentium, tempora beatae aperiam est impedit perferendis corrupti repellat quis iusto libero pariatur soluta. Provident quisquam sed harum dolorum culpa doloremque nam. Sint rerum placeat numquam doloremque veniam officiis commodi accusantium doloribus, saepe, accusamus assumenda, optio facere quibusdam earum quaerat ullam? Facere, nobis! Soluta quasi aut laudantium vitae fugit, unde iste molestiae amet saepe quae? Nemo fuga accusantium impedit officia. Asperiores dolorum optio distinctio ad! Minus minima suscipit numquam aliquid consequuntur! Non aliquid itaque, nam neque dicta culpa corporis deleniti aspernatur beatae.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam excepturi, aut laborum molestiae corrupti laudantium voluptates. Atque vitae praesentium, tempora beatae aperiam est impedit perferendis corrupti repellat quis iusto libero pariatur soluta. Provident quisquam sed harum dolorum culpa doloremque nam. Sint rerum placeat numquam doloremque veniam officiis commodi accusantium doloribus, saepe, accusamus assumenda, optio facere quibusdam earum quaerat ullam? Facere, nobis! Soluta quasi aut laudantium vitae fugit, unde iste molestiae amet saepe quae? Nemo fuga accusantium impedit officia. Asperiores dolorum optio distinctio ad! Minus minima suscipit numquam aliquid consequuntur! Non aliquid itaque, nam neque dicta culpa corporis deleniti aspernatur beatae.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam excepturi, aut laborum molestiae corrupti laudantium voluptates. Atque vitae praesentium, tempora beatae aperiam est impedit perferendis corrupti repellat quis iusto libero pariatur soluta. Provident quisquam sed harum dolorum culpa doloremque nam. Sint rerum placeat numquam doloremque veniam officiis commodi accusantium doloribus, saepe, accusamus assumenda, optio facere quibusdam earum quaerat ullam? Facere, nobis! Soluta quasi aut laudantium vitae fugit, unde iste molestiae amet saepe quae? Nemo fuga accusantium impedit officia. Asperiores dolorum optio distinctio ad! Minus minima suscipit numquam aliquid consequuntur! Non aliquid itaque, nam neque dicta culpa corporis deleniti aspernatur beatae.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam excepturi, aut laborum molestiae corrupti laudantium voluptates. Atque vitae praesentium, tempora beatae aperiam est impedit perferendis corrupti repellat quis iusto libero pariatur soluta. Provident quisquam sed harum dolorum culpa doloremque nam. Sint rerum placeat numquam doloremque veniam officiis commodi accusantium doloribus, saepe, accusamus assumenda, optio facere quibusdam earum quaerat ullam? Facere, nobis! Soluta quasi aut laudantium vitae fugit, unde iste molestiae amet saepe quae? Nemo fuga accusantium impedit officia. Asperiores dolorum optio distinctio ad! Minus minima suscipit numquam aliquid consequuntur! Non aliquid itaque, nam neque dicta culpa corporis deleniti aspernatur beatae.</p>
+    </section>
+    <footer>
+        Published on 17/05/2023 at 9:50
+    </footer>
+</article>
+</main>
+
+<aside>
+    <section>
+        <h3>Archive
+        </h3>
+        <ul>
+            <li><a href="#">March 2023</a></li>
+            <li><a href="#">April 2023</a></li>
+            <li><a href="#">May 2023</a></li>
+        </ul>
+    </section>
+</aside>
+<footer>
+    <p>&copy; All rights reserved</p>
+</footer>
+</body>
+</html>
