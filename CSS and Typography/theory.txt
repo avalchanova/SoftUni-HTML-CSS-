@@ -1,0 +1,24 @@
+Link for CSS selectors - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors
+
+1. CSS пишем от най-общите правила към най-специфичните
+2. CSS specificity: the set of the rules applied to CSS selectors in order to determine 
+which style is applied to an element; ids have the highest priority
+3. When we write css on the same selector, it will be applied the last written CSS 
+4. Колкото по-сложен е селекторът, толкова по-надолу трябва да бъде
+
+header[id] - търси header-и с атрибут id
+
+article > header {
+    border-top: 10px solid #000
+} -------> това означава, че ще се маркират САМО хедърите, които са В артикъли
+и няма да е нужно да се слагат излишни класове, за да се селектират елементите
+
+article h2 + p,
+article h3 + p,
+article h4 + p,
+article h5 + p, 
+article h6 + p,
+article header + p {
+    font-style: italic; 
+}  -------> това ознава, че всеки paragraph, който е след h1/2/3/4/5/header, 
+които пък трябва да бъдат в article, ще бъде италик
