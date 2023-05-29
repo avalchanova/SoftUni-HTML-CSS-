@@ -22,3 +22,7 @@ article header + p {
     font-style: italic; 
 }  -------> това ознава, че всеки paragraph, който е след h1/2/3/4/5/header, 
 които пък трябва да бъдат в article, ще бъде италик
+
+5. When using fontawesome icons it is best to use the SVG file instead of the class 
+option because even though we use only 1 icon, all of fontawesome's icons are loading 
+each time
