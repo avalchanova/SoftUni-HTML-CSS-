@@ -26,3 +26,4 @@ article header + p {
 5. When using fontawesome icons it is best to use the SVG file instead of the class 
 option because even though we use only 1 icon, all of fontawesome's icons are loading 
 each time
+    * SVG - scalable vector graphics 
