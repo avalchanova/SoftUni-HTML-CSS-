@@ -54,3 +54,10 @@ h5 {
 h6 {
     font-size: 1em;
 }
+
+.icon {
+    width: 1em;
+    fill: darkblue;
+    /* aliceblue - color */
+
+}
