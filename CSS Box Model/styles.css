@@ -1,0 +1,34 @@
+body {
+    font: 16px/1.5 "Lucida Grande", Verdana, sans-serif;
+    /* 1.5 is line-height! */
+    padding: 2em;
+}
+
+.inline-block {
+    background: #eee;
+}
+
+.inline-block span {
+    background: #ccc;
+    /* padding: 0 1em; */
+    padding-inline: 1em;
+    /* horizontal padding so it would not mess with the lines above and below */
+    padding-block: 1em;
+    display: inline-block;
+}
+
+.box {
+    border: 2px solid darkblue;
+    background-color: lightblue;
+    padding: 2em 2em 2em 2em;
+    margin: 2em
+        /* padding: top right bottom left */
+        /* padding: [top & right] [left & right] */
+        /* padding-block: [top & right] */
+        /* padding-inline: [left & right]  */
+        /* same goes with margin */
+}
+
+.box-contents {
+    background-color: yellow;
+}
