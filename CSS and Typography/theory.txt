@@ -27,3 +27,12 @@ article header + p {
 option because even though we use only 1 icon, all of fontawesome's icons are loading 
 each time
     * SVG - scalable vector graphics 
+
+6. Button do not inherit directly from the body, forms have the same specificity */
+
+7.  display: block;
+    puts elements under each other because the elements appear as block elements
+    and they use the whole line (not like inline)
+
+8. font: 16px/1.5 "Lucida Grande", Verdana, sans-serif;
+    1.5 is line-height!
