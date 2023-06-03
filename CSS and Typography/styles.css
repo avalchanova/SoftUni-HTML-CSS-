@@ -11,7 +11,7 @@ body,
 table,
 form {
     font: inherit;
-    /* inherits html's font */
+    /* inherits the html's font */
 }
 
 p {
