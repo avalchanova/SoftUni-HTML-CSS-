@@ -1,0 +1,30 @@
+body {
+    font: 16px/1.5 Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51) ;
+    padding: 2em;
+}
+
+article {
+    width: 70%;
+    display: inline-block;
+    margin-right: 4%;
+}
+
+aside {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top; 
+    /* dividing the page in two thanks to width %
+    inline-block
+    that is how we put the Latest Posts at the top of the page in the right corner
+    */
+}
+
+ul {
+    padding: 0;
+}
+
+img {
+    width: 30em;
+}
