@@ -1,0 +1,12 @@
+body{
+    font: 18px/1.5 Ariel, serif;
+    padding: 1em 3em;
+}
+
+p {
+    max-width: 60%;
+}
+h1:target{
+    color: rgb(232, 164, 232);
+    
+}
