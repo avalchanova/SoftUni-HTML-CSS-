@@ -1,17 +1,3 @@
-/* 
-o <p>:
-▪ Text color: #eee
-▪ Font: Arial
-▪ Generic Font: sans-serif
-▪ Height of the line: 24px
-▪ Paddings: 10px
-▪ Indent text in the first line 30px
-o <div>:
-▪ Bottom margin: 30px
-▪ Solid top border with size 2px and color #fff
-▪ Relative position
-▪ Top coordinates: 20px
-*/ 
 body{
     background-color: #02475e;
 }
@@ -22,18 +8,31 @@ article h2 {
     margin: 12;
     text-align: center;
 }
-/*
-o <span>:
-▪ Width: 120px
-▪ Font size: 14px
-▪ Align the text to the center
-▪ Top & bottom paddings 3px
-▪ Left & right paddings 5px
-▪ Top & bottom margins 0
-▪ Left & right margins auto
-▪ Background color: #fff
-▪ Display the span as block
-▪ Relative position
-▪ Top coordinates: -11px
-*/
+
+p {
+    color: #eee;
+    font-family: Ariel, sans-serif;
+    line-height: 24px;
+    padding: 10px;
+    text-indent: 30px;
+}
+div {
+    margin-bottom: 30px;
+    border-top: 2px solid #fff ;
+    position: relative;
+    top: 20px;
+}
+
+span {
+    width:120px;
+    font-size: 14px;
+    text-align: center;
+    padding: 3px 5px 3px 5px;
+    margin: 0 auto 0 auto;
+    background-color: #fff;
+    display: block;
+    position: relative;
+    top: -11px; 
+    /* THAT"S COOL */
+}
 
