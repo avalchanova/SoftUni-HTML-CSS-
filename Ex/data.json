@@ -1,0 +1,295 @@
+{
+    "games_list":
+    [{
+    "name":"The Temple Of Astarta",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/TheTempleOfAstarta_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=340&real_money_session=0",
+    "order":"526"
+    },
+    {
+    "name":"Amazons Spear",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/AmazonsSpear_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=250&real_money_session=0",
+    "order":"698"
+    },
+    {
+    "name":"Caribbean Adventure",
+    "icon":"\/\/cdn1.ctrgs.com\/html-201809-neon-stable\/MainCaribbeanAdventure_1024_site.jpg",
+    "link":"https:\/\/bl-ecasino.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=280&real_money_session=0",
+    "order":"157"
+    },
+    {
+    "name":"Great Queen Bee",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/GreatQueenBee_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=302&real_money_session=0",
+    "order":"754"
+    },
+    {
+    "name":"Groovy Powers",
+    "icon":"https:\/\/www.palmsbet.com\/online-game-images\/ECASINO\/CTRGSECASINO\/2122.png",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=684&real_money_session=0",
+    "order":"750"
+    },
+    {
+    "name":"Duck of Luck returns",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/DuckOfLuckReturns_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=291&real_money_session=0",
+    "order":"697"
+    },
+    {
+    "name":"Golden Amulet",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/GoldenAmulet_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=354&real_money_session=0",
+    "order":"579"
+    },
+    {
+    "name":"Gaelic Warrior",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/GaelicWarrior_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=299&real_money_session=0",
+    "order":"717"
+    },
+    {
+    "name":"Wild Hills",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/WildHills_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=351&real_money_session=0",
+    "order":"629"
+    },
+    {
+    "name":"Urban Lady Love Story",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/UrbanLadyLoveStory_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=347&real_money_session=0",
+    "order":"469"
+    },
+    {
+    "name":"Chilli Fruits",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/ChilliFruits_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=620&real_money_session=0",
+    "order":"50"
+    },
+    {
+    "name":"The Power Of Ramesses",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/ThePowerOfRamesses_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=678&real_money_session=0",
+    "order":"734"
+    },
+    {
+    "name":"Mighty Kraken",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/MightyKraken_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=316&real_money_session=0",
+    "order":"585"
+    },
+    {
+    "name":"Goblin's Gold",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/GoblinsGold_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=353&real_money_session=0",
+    "order":"47"
+    },
+    {
+    "name":"The Great Cabaret",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/TheGreatCabaret_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=338&real_money_session=0",
+    "order":"627"
+    },
+    {
+    "name":"Tesla Power",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/TeslaPower_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=336&real_money_session=0",
+    "order":"688"
+    },
+    {
+    "name":"Magician Dreaming",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/Magician_Dreaming_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=315&real_money_session=0",
+    "order":"601"
+    },
+    {
+    "name":"King's Tomb Riches",
+    "icon":"\/\/s3.eu-central-1.amazonaws.com\/rgs-eu\/swf\/MainBingoKingsTombRiches_1024_site.jpg",
+    "link":"https:\/\/bl-ecasino.ecasino.bg\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=274&real_money_session=0",
+    "order":"0"
+    },
+    {
+    "name":"Three Nymphs",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/ThreeNymphs_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=341&real_money_session=0",
+    "order":"434"
+    },
+    {
+    "name":"Viking's Fun",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/VikingsFun_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=348&real_money_session=0",
+    "order":"586"
+    },
+    {
+    "name":"Aztec Empress",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/AztecEmpress_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=268&real_money_session=0",
+    "order":"590"
+    },
+    {
+    "name":"Tropic Dancer",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/TropicDancer_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=345&real_money_session=0",
+    "order":"649"
+    },
+    {
+    "name":"Bye Bye Spy Guy",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/ByeByeSpyGuy_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=278&real_money_session=0",
+    "order":"638"
+    },
+    {
+    "name":"Jolly Beluga Whales",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/JollyBelugaWhales_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=311&real_money_session=0",
+    "order":"726"
+    },
+    {
+    "name":"Fire Dozen",
+    "icon":"https:\/\/www.palmsbet.com\/online-game-images\/ECASINO\/CTRGSECASINO\/2127.png",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=683&real_money_session=0",
+    "order":"605"
+    },
+    {
+    "name":"Duck Of Luck",
+    "icon":"https:\/\/www.palmsbet.com\/online-game-images\/ECASINO\/CTRGSECASINO\/1000.png",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=290&real_money_session=0",
+    "order":"9"
+    },
+    {
+    "name":"40 Shining jewels",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/40_shining_jewels_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=262&real_money_session=0",
+    "order":"610"
+    },
+    {
+    "name":"Smiley X Wild",
+    "icon":"https:\/\/www.palmsbet.com\/online-game-images\/ECASINO\/CTRGSECASINO\/2134.png",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=686&real_money_session=0",
+    "order":"765"
+    },
+    {
+    "name":"Lucky Clover",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/LuckyClover_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=313&real_money_session=0",
+    "order":"23"
+    },
+    {
+    "name":"Colibri Wild",
+    "icon":"https:\/\/www.palmsbet.com\/online-game-images\/ECASINO\/CTRGSECASINO\/2130.png",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=681&real_money_session=0",
+    "order":"732"
+    },
+    {
+    "name":"Mountain Song Quechua",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/MountainSongQuechual_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=320&real_money_session=0",
+    "order":"603"
+    },
+    {
+    "name":"Hell's Sevens",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/HellsSevens_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=305&real_money_session=0",
+    "order":"719"
+    },
+    {
+    "name":"Mighty Rex",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/MightyRex_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=317&real_money_session=0",
+    "order":"602"
+    },
+    {
+    "name":"Beetle Star",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/BeatleStar_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=271&real_money_session=0",
+    "order":"272"
+    },
+    {
+    "name":"The Power of Ankh",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/ThePowerOfAnkh_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=339&real_money_session=0",
+    "order":"702"
+    },
+    {
+    "name":"Columbus Treasure",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/ColumbusTreasure_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=284&real_money_session=0",
+    "order":"409"
+    },
+    {
+    "name":"Golden Acorn",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/GoldenAcorn_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=300&real_money_session=0",
+    "order":"639"
+    },
+    {
+    "name":"Clover Party",
+    "icon":"https:\/\/www.palmsbet.com\/online-game-images\/ECASINO\/CTRGSECASINO\/2105.png",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=680&real_money_session=0",
+    "order":"633"
+    },
+    {
+    "name":"Penguin Party",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/PenguinParty_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=326&real_money_session=0",
+    "order":"593"
+    },
+    {
+    "name":"Navy Girl",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/NavyGirl_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=323&real_money_session=0",
+    "order":"386"
+    },
+    {
+    "name":"Australian Magic",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/AustralianMagic_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=267&real_money_session=0",
+    "order":"712"
+    },
+    {
+    "name":"HOT 7's X 2",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/Hot7sX2_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=355&real_money_session=0",
+    "order":"576"
+    },
+    {
+    "name":"African Magic",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/AfricanMagic_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=265&real_money_session=0",
+    "order":"644"
+    },
+    {
+    "name":"90 Balls Bingo 6 Cards",
+    "icon":"https:\/\/bl-ecasino.palmsbet.com\/pub\/online-game-images\/ECASINO\/online-gameapi-ctrgs\/1047.png",
+    "link":"https:\/\/bl-ecasino.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=264&real_money_session=0",
+    "order":"0"
+    },
+    {
+    "name":"Silver Creek Giant",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/SilverCreekGiant_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=358&real_money_session=0",
+    "order":"663"
+    },
+    {
+    "name":"Sapphire Lagoon",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/SapphireLagoon_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=333&real_money_session=0",
+    "order":"722"
+        },{
+    "name":"Egg and Rooster",
+    "icon":"https:\/\/www.palmsbet.com\/online-game-images\/ECASINO\/CTRGSECASINO\/2108.png",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=675&real_money_session=0",
+    "order":"598"
+        },{
+    "name":"Monkey Sevens",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/MonkeySevens_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=622&real_money_session=0",
+    "order":"613"
+    },
+    {
+    "name":"Groovy Automat",
+    "icon":"\/\/cdn3.ctrgs.com\/html-20200413-stable\/GroovyAutomat_site.jpg",
+    "link":"https:\/\/bl-bg-site.palmsbet.com\/online-siteapi-pub-ui\/ECASINO\/CMSOnlineEcasinoSiteAPI\/671914afef4582d06d66db897d51d810?command=launch_game&game_id=304&real_money_session=0",
+    "order":"403"
+        }],
+    "code":200}
