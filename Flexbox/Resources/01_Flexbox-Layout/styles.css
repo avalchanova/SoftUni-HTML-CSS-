@@ -2,18 +2,23 @@ body {
     background-color: #eee;
     padding: 5rem;
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     /* items will be destributed among multiple lines if needed */
 }
 
-header, main, aside, footer {
+header,
+main,
+aside,
+footer {
     padding: 2rem;
+    /* margin: 0.1rem; */
     background-color: #fff;
     border-radius: 0.4rem;
     color: #000;
 }
 
-header, footer {
+header,
+footer {
     flex-basis: 100%;
     /* it will take 100% of the line */
 }
@@ -25,3 +30,10 @@ main {
 aside {
     flex: 2 1 20rem;
 }
+
+/* 
+flex is a shorthand for flex-grow, flex-shrink and flex-basis 
+flex-grow -> the ability for a flex item to grow if necessary
+flex-shrink -> the ability for a flex item to shrink if necessary.
+flex-basis -> the default size of an element before the remaining space is distributed. It can be a length (e.g. 20%, 5rem, etc.) or a keyword
+*/
