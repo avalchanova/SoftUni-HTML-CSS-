@@ -1,0 +1,18 @@
+html {
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    line-height: 1.2;
+}
+
+section {
+    display: flex;
+    /* instantly makes the articles fit next to each other
+    instead of each on a new line */
+    justify-content: space-between;
+    max-width: 70vw;
+    /* a length of 70% of the width of the viewport  */
+}
