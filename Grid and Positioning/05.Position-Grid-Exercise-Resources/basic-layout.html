@@ -25,16 +25,9 @@
             grid-template-columns: 2fr 1fr;
             gap: 2em;
             justify-content: center;   
-            grid-template-areas: 
-                "header header"
-                "main sidebar"
-                "footer footer";
         }
-        header{
-            grid-area: header;
-        }
-        footer {
-            grid-area: footer;
+        header, footer {
+            grid-column: 1/-1
         }
     </style>
 </head>
