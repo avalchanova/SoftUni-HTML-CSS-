@@ -20,3 +20,17 @@
     grid-column: 2/4;
     grid-row: 2/4;
 }
+
+.grid1 div:nth-child(5),
+.grid1 div:nth-child(6) {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    z-index: 6;
+    /* z-index controls which element to be brought at the top;
+    in this case the 5th element will be at the back and will be hiden from the 
+    6th element which is in colour */
+}
+
+.grid1 div:nth-child(6) {
+    background-color: lightcoral;
+}
