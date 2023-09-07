@@ -11,10 +11,20 @@ body {
 .container {
     border: 2px solid #000;
     margin-bottom: 2em;
-    height: 10em;
+    height: 15em;
 }
 
 .box {
     height: 2em;
-    background: plum;
+    background: rgba(221, 160, 221, 0.495);
+}
+
+/* When the position is RELATIVE the box moves down but its place from the upper side 
+remains unoccupied with other elements, also the place below the box where the Lorem
+text is overlaps with the new position of the box */
+.p-relative .box {
+    position: relative;
+    top: 1em;
+    left: 0
+        /* this moved the purple box in the relative div 1em */
 }
