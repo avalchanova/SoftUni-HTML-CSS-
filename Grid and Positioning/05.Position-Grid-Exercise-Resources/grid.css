@@ -3,8 +3,6 @@
     background: #eee;
 }
 
-
-
 .grid1 {
     grid-template-rows: repeat(5, 80px);
     grid-template-columns: repeat(6, 80px);
@@ -17,20 +15,23 @@
     grid-row-start: 2;
     grid-row-end: 4; 
     same as below */
-    grid-column: 2/4;
+    grid-column: 1/6;
     grid-row: 2/4;
+    z-index: 10;
+    background-color: violet;
 }
 
 .grid1 div:nth-child(5),
 .grid1 div:nth-child(6) {
-    grid-column: 3/4;
-    grid-row: 1/2;
-    z-index: 6;
+    grid-column: 2/3;
+    grid-row: 1/6;
+    z-index: 5;
     /* z-index controls which element to be brought at the top;
     in this case the 5th element will be at the back and will be hiden from the 
     6th element which is in colour */
 }
 
 .grid1 div:nth-child(6) {
-    background-color: lightcoral;
+    background: rgba(255, 255, 255, 0.5);
+    z-index: 15
 }
