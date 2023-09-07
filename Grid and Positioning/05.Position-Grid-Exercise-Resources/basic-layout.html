@@ -13,25 +13,41 @@
         body {
             padding:2em
         }
-        body > * {
+        .site > * {
             background: lightcyan;
+            padding: 1em 1.5em;
+            border-radius: 0.5em;
         }
-        body{
+        .site{
+            min-height: 100vh;
             display: grid;
+            padding: 2em;
             grid-template-columns: 2fr 1fr;
             gap: 2em;
-            
+            justify-content: center;   
+            grid-template-areas: 
+                "header header"
+                "main sidebar"
+                "footer footer";
+        }
+        header{
+            grid-area: header;
+        }
+        footer {
+            grid-area: footer;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Site title goes here</h1>
-    </header>
-    <main>
-        <p>Main content goes here</p>
-    </main>
-    <aside>Sidebar goes here</aside>
-    <footer>Footer goes here</footer>
+    <div class="site">
+        <header>
+            <h1>Site title goes here</h1>
+        </header>
+        <main>
+            <p>Main content goes here</p>
+        </main>
+        <aside>Side bar goes here</aside>
+        <footer>Footer goes here</footer>
+    </div>
 </body>
 </html>
