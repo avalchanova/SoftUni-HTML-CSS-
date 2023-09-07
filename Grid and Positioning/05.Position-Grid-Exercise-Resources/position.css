@@ -15,11 +15,11 @@ body {
 }
 
 .box {
-    height: 2em;
+    min-height: 2em;
     background: rgba(221, 160, 221, 0.495);
 }
 
-/* When the position is RELATIVE the box moves down but its place from the upper side 
+/* When the position is RELATIVE the box moves down but its place from the upp er side 
 remains unoccupied with other elements, also the place below the box where the Lorem
 text is overlaps with the new position of the box */
 .p-relative .box {
@@ -27,4 +27,23 @@ text is overlaps with the new position of the box */
     top: 1em;
     left: 0
         /* this moved the purple box in the relative div 1em */
+}
+
+.p-absolute {
+    position: relative
+}
+
+/* Its size depends on the content that it holds, 
+if there is no content, the box won't appear visible.
+This element will appear where the position is relative or
+absolute, or if it does not find one, if will appear at the top of the body */
+.p-absolute .box {
+    position: absolute;
+    /* top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0; 
+    inset: 1em;
+    */
+    inset: 0;
 }
