@@ -9,8 +9,25 @@ body {
 }
 
 figure {
-    display: none;
+    /* display: none; */
     /* hides the picture */
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    /* when the width of the photo is 100% ALWAYS the height must be auto
+    so the ration of the photo will be fixed */
+}
+
+.content {
+    position: relative;
+    z-index: 5;
+    color: #fff;
 }
 
 .media {
@@ -32,4 +49,6 @@ figure {
     of the media element was centered, not the center of the media element itself, and now it is thanks
     to the transform property
      */
+    overflow: hidden;
+    /* cuts the overflowing part of the photo */
 }
