@@ -47,3 +47,12 @@ absolute, or if it does not find one, if will appear at the top of the body */
     */
     inset: 0;
 }
+
+/* Always stays in our viewport */
+.p-fixed .box {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+
+}
