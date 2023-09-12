@@ -27,6 +27,9 @@ figure img {
     position: absolute;
     inset: 1em;
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
 
 .media {
