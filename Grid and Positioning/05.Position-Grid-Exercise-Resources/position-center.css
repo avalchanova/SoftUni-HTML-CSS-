@@ -13,8 +13,7 @@ figure {
     /* hides the picture */
     display: block;
     position: absolute;
-    top: 0;
-    left: 0;
+    inset: 0;
 }
 
 figure img {
@@ -25,18 +24,18 @@ figure img {
 }
 
 .content {
-    position: relative;
-    z-index: 5;
+    position: absolute;
+    inset: 1em;
     color: #fff;
 }
 
 .media {
-    max-width: 20em;
+    /* max-width: 20em; */
     /* height: 10em; */
-    background: #fff;
+    /* 
     padding: 2em;
-    border-radius: 0.5em;
-    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.3);
+    
+     */
     /*  margin: calc(50vh - 5em) auto;
     vh - is 1% of the viewpoint height */
     position: absolute;
@@ -49,6 +48,16 @@ figure img {
     of the media element was centered, not the center of the media element itself, and now it is thanks
     to the transform property
      */
+    width: 40vw;
+    background: #fff;
+    border-radius: 0.5em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.5);
     overflow: hidden;
     /* cuts the overflowing part of the photo */
+}
+
+.media:after {
+    display: block;
+    content: '';
+    padding-top: 56.25%;
 }
