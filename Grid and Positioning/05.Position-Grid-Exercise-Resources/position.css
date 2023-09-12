@@ -62,7 +62,7 @@ absolute, or if it does not find one, if will appear at the top of the body */
     width: 100%;
 } */
 
-/* Sticky sticks the element wherever we tell it to (in this case at the top left corner) 
+/*  Sticky sticks the element wherever we tell it to (in this case at the top left corner) 
     until it runs in another sticky element and overlaps with it or until we scroll down
     to a new seperate non-sticky element
 */
