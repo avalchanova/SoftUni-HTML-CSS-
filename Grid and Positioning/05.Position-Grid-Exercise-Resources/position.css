@@ -11,12 +11,18 @@ body {
 .container {
     border: 2px solid #000;
     margin-bottom: 2em;
-    height: 15em;
+    min-height: 10em;
+    padding: 1em;
 }
 
 .box {
     min-height: 2em;
     background: rgba(221, 160, 221, 0.495);
+}
+
+p {
+    padding-bottom: 2em;
+
 }
 
 /* When the position is RELATIVE the box moves down but its place from the upp er side 
@@ -48,11 +54,20 @@ absolute, or if it does not find one, if will appear at the top of the body */
     inset: 0;
 }
 
-/* Always stays in our viewport */
-.p-fixed .box {
+/* Always stays in our viewport, commented it so the sticky demo will work*/
+/* .p-fixed .box {
     position: fixed;
     top: 0;
     right: 0;
     width: 100%;
+} */
 
+/* Sticky sticks the element wherever we tell it to (in this case at the top left corner) 
+    until it runs in another sticky element and overlaps with it or until we scroll down
+    to a new seperate non-sticky element
+*/
+.p-sticky .box {
+    position: sticky;
+    top: 0;
+    left: 0
 }
