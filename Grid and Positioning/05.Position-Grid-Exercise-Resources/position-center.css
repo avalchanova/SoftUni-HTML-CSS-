@@ -30,5 +30,6 @@ figure {
     /* this is put the center of our media element in the center of the parent element
     because before that the element was in the middle of the parent but not exactly, because the top left corner
     of the media element was centered, not the center of the media element itself, and now it is thanks
-    to the transform property */
+    to the transform property
+     */
 }
