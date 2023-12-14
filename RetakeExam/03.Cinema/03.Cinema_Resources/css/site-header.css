@@ -1,0 +1,49 @@
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff;
+    padding: 0.5em 1em;
+}
+
+.main-nav ul {
+    display: flex;
+    justify-content: flex-end;
+    color: red;
+}
+
+.main-nav ul li,
+.main-nav ul a {
+    display: block;
+}
+
+.main-nav ul li {
+    padding: 0 1px;
+}
+
+.main-nav ul a {
+    color: #696969;
+    text-decoration: none;
+    background-color: #ececec;
+    padding: 10px;
+    font-size: 10px;
+    font-weight: 500;
+}
+.main-nav ul a:hover {
+    background-color: #56dbb1;
+    color: #000000;
+}
+
+.cinema-span {
+    padding: 3px;
+    padding-right: 10px;
+    border-right: 1px solid #dbdbdb;
+    font-size: 20px;
+    font-weight: 700;
+    color: #313131;
+}
+
+.IMDB {
+    color: #808080;
+    font-size: 8px;
+    padding-left: 13px;
+}
