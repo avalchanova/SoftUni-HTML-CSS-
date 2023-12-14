@@ -1,0 +1,44 @@
+/* Mobile-first styles */
+@media screen and (max-width: 600px) {
+    /* ... (previous responsive styles) */
+
+    /* Gallery styles */
+    .tm-header-inner {
+        justify-content: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .tm-gallery {
+        margin-left: 20px;
+    }
+
+    .tm-gallery-page {
+        margin: 0;
+    }
+
+    .tm-gallery-item {
+        max-width: none;
+        width: 100%;
+    }
+
+    .tm-gallery-img {
+        margin-bottom: 10px;
+        width: 100%; /* Ensure images take up the full width */
+        height: 200px; /* Set a fixed height for consistency */
+        object-fit: cover; /* Maintain aspect ratio and cover the container */
+    }
+
+    .tm-gallery-title {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+
+    .tm-gallery-description {
+        margin-bottom: 15px;
+    }
+
+    .tm-gallery-price {
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+}
