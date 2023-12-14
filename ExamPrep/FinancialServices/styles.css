@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 12px/1.5 'Poppins', sans-serif;
+}
+
+/* Everything from above is absolute basic on all exercises */
+
+h3 {
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+p {
+    padding-bottom: 10px;
+}
+
+.container {
+    /* max width is the width of the screenshot (1920-2*60) because it is expected that there will be
+    60px on the left and on the right as a margin between the site and the main container ; 1800 in this case*/
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.container header {
+    text-align: center;
+    padding: 20px 0 5px;
+    /* 20px top 0 left and right 5px bottom */
+}
+
+.container header h2 {
+    font-weight: 500;
+}
+
+.container header h2 span {
+    color: #327dc4;
+}
+
+.cards-list {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    flex: 1 0 30%;
+    /* flex grow,shrink and basis - 1 will grow, 0 will shrink, 30% will be each card from the given space */
+    border-radius: 12px;
+    background-color: #819daf;
+}
+
+.card img {
+    /* this will make all the images the same size if they are isn't flexbox */
+    display: block;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.card .content {
+    padding: 15px;
+}
+
+.card a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #327dc4;
+    color: #fff;
+    font-size: 11px;
+    line-height: 1;
+    border-radius: 15px;
+    text-decoration: none;
+    border: 1px solid #323cc4;
+    box-shadow: 0 0 2px 0 rgba(255, 255, 255, 0.5);
+}
